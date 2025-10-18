@@ -1,0 +1,70 @@
+.reserva-container {
+  padding: 1rem 2rem;
+  background-color: #f8f9fa; /* fondo sólido */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}
+
+.reserva-form {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.reserva-item {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  min-width: 150px;
+}
+
+.reserva-item label {
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 0.2rem;
+}
+
+.reserva-item input,
+.reserva-item select {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #999;
+  color: #333;
+  padding: 0.4rem 0;
+  font-size: 0.95rem;
+  outline: none;
+  appearance: none;
+}
+
+.reserva-item select option {
+  background-color: #fff;
+  color: #333;
+}
+
+.reserva-item select {
+  background-image: url("data:image/svg+xml,%3Csvg fill='%23333' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  background-size: 1rem;
+  padding-right: 2rem;
+}
+
+/* Estilo del botón RESERVAR */
+.btn-reservar {
+  background-color: #8e6e4f;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-reservar:hover {
+  background-color: #a7845e;
+}
